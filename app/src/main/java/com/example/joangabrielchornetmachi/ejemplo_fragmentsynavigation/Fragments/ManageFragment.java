@@ -28,7 +28,7 @@ public class ManageFragment extends Fragment {
 
     public ManageFragment() {
         // Required empty public constructor
-        context=getActivity();
+
     }
 
 
@@ -36,6 +36,8 @@ public class ManageFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        context=getActivity();
         // Inflate the layout for this fragment
         View rootView= inflater.inflate(R.layout.fragment_manage, container, false);
         //todo el codigo necesario para que el fragment funcione
